@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_global_espot_descs",
+  "info": {
+    "displayName": "Espot",
+    "icon": "address-card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "richtext"
+    }
+  }
+}

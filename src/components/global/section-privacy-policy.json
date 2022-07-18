@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_global_section_privacy_policy",
+  "info": {
+    "displayName": "Privacy policy - section",
+    "icon": "angle-double-down",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}

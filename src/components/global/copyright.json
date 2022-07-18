@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_global_copyrights",
+  "info": {
+    "displayName": "Copyright",
+    "icon": "border-all"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    }
+  }
+}

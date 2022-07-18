@@ -1,0 +1,48 @@
+{
+  "collectionName": "components_global_footers",
+  "info": {
+    "displayName": "footer",
+    "icon": "adjust"
+  },
+  "options": {},
+  "attributes": {
+    "theme": {
+      "type": "enumeration",
+      "enum": [
+        "light",
+        "dark"
+      ],
+      "default": "light"
+    },
+    "navigation": {
+      "type": "component",
+      "repeatable": true,
+      "component": "global.footer-navigation"
+    },
+    "socials": {
+      "type": "component",
+      "repeatable": true,
+      "component": "global.footer-socials"
+    },
+    "newsletter": {
+      "type": "component",
+      "repeatable": false,
+      "component": "global.newsletter"
+    },
+    "columns": {
+      "type": "component",
+      "repeatable": true,
+      "component": "global.footer-columns"
+    },
+    "paymentCards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "global.payment-cards"
+    },
+    "copyright": {
+      "type": "component",
+      "repeatable": false,
+      "component": "global.copyright"
+    }
+  }
+}

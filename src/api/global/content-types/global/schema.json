@@ -1,0 +1,31 @@
+{
+  "kind": "singleType",
+  "collectionName": "globals",
+  "info": {
+    "singularName": "global",
+    "pluralName": "globals",
+    "displayName": "Global",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "footer": {
+      "type": "component",
+      "repeatable": false,
+      "component": "global.footer"
+    },
+    "messageBanner": {
+      "type": "component",
+      "repeatable": true,
+      "component": "global.message-banner"
+    },
+    "megaMenu": {
+      "type": "component",
+      "repeatable": false,
+      "component": "global.mega-menu"
+    }
+  }
+}

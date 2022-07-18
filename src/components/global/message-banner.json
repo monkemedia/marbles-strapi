@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_global_message_banners",
+  "info": {
+    "displayName": "message banner",
+    "icon": "air-freshener"
+  },
+  "options": {},
+  "attributes": {
+    "message": {
+      "type": "richtext"
+    }
+  }
+}

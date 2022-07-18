@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_shared_news_letters",
+  "info": {
+    "displayName": "Newsletter",
+    "icon": "angry",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "string"
+    },
+    "placeholder": {
+      "type": "string"
+    },
+    "success_message": {
+      "type": "string"
+    }
+  }
+}

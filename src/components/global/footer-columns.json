@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_global_footer_columns",
+  "info": {
+    "displayName": "Footer Columns",
+    "icon": "align-center",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "icon": {
+      "type": "string"
+    },
+    "link": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.link",
+      "required": true
+    }
+  }
+}

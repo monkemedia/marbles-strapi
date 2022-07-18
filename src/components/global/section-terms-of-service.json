@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_global_section_terms_of_services",
+  "info": {
+    "displayName": "Terms of service - section",
+    "icon": "angle-double-down",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_global_mega_menu_level_1s",
+  "info": {
+    "displayName": "Mega Menu Level 1",
+    "icon": "arrows-alt-v",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "links": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.link"
+    },
+    "columns": {
+      "type": "component",
+      "repeatable": true,
+      "component": "global.mega-menu-level-column"
+    },
+    "is_featured": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

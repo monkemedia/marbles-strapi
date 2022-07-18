@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_global_navigation_columns",
+  "info": {
+    "displayName": "Navigation Column",
+    "icon": "address-book",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.link"
+    }
+  }
+}

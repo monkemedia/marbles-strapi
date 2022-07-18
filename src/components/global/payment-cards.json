@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_shared_payment_cards",
+  "info": {
+    "displayName": "Payment Cards",
+    "icon": "allergies",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "card": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

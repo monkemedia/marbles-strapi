@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_global_mega_menus",
+  "info": {
+    "displayName": "Mega Menu",
+    "icon": "american-sign-language-interpreting"
+  },
+  "options": {},
+  "attributes": {
+    "level1": {
+      "displayName": "level1",
+      "type": "component",
+      "repeatable": true,
+      "component": "global.mega-menu-level-1"
+    }
+  }
+}

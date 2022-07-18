@@ -1,0 +1,49 @@
+{
+  "collectionName": "components_global_homepage_heroes",
+  "info": {
+    "displayName": "Homepage Hero",
+    "icon": "ad",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "string"
+    },
+    "links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.link"
+    },
+    "background": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "textColour": {
+      "type": "enumeration",
+      "enum": [
+        "white",
+        "dark"
+      ]
+    },
+    "align": {
+      "type": "enumeration",
+      "enum": [
+        "is-centered",
+        "is-left",
+        "is-right"
+      ],
+      "default": "is-centered"
+    }
+  }
+}
