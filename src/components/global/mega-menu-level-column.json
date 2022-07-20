@@ -7,8 +7,10 @@
   },
   "options": {},
   "attributes": {
-    "title": {
-      "type": "string"
+    "link": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.link"
     },
     "links": {
       "type": "component",
