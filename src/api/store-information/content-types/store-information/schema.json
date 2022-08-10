@@ -15,7 +15,7 @@
     "address": {
       "type": "richtext"
     },
-    "Hours": {
+    "hours": {
       "type": "component",
       "repeatable": false,
       "component": "global.opening-hours"
