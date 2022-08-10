@@ -7,14 +7,9 @@
   },
   "options": {},
   "attributes": {
-    "monday": {
+    "day": {
       "type": "component",
-      "repeatable": false,
-      "component": "global.opening-day"
-    },
-    "tuesday": {
-      "type": "component",
-      "repeatable": false,
+      "repeatable": true,
       "component": "global.opening-day"
     }
   }
