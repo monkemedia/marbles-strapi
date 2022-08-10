@@ -1,0 +1,24 @@
+{
+  "kind": "singleType",
+  "collectionName": "store_informations",
+  "info": {
+    "singularName": "store-information",
+    "pluralName": "store-informations",
+    "displayName": "Store Information",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "address": {
+      "type": "richtext"
+    },
+    "Hours": {
+      "type": "component",
+      "repeatable": false,
+      "component": "global.opening-hours"
+    }
+  }
+}

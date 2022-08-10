@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_global_opening_hours",
+  "info": {
+    "displayName": "Opening hours",
+    "icon": "archway",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "monday": {
+      "type": "component",
+      "repeatable": false,
+      "component": "global.opening-day"
+    },
+    "tuesday": {
+      "type": "component",
+      "repeatable": false,
+      "component": "global.opening-day"
+    }
+  }
+}

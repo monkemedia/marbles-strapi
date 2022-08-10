@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_global_opening_days",
+  "info": {
+    "displayName": "Opening day",
+    "icon": "apple-alt"
+  },
+  "options": {},
+  "attributes": {
+    "day": {
+      "type": "string"
+    },
+    "open": {
+      "type": "boolean",
+      "default": false
+    },
+    "start": {
+      "type": "time"
+    },
+    "end": {
+      "type": "time"
+    }
+  }
+}
