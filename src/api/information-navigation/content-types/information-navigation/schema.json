@@ -4,14 +4,15 @@
   "info": {
     "singularName": "information-navigation",
     "pluralName": "information-navigations",
-    "displayName": "Information Navigation"
+    "displayName": "Information Navigation",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "link": {
+    "links": {
       "type": "component",
       "repeatable": true,
       "component": "shared.link"
