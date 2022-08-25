@@ -12,13 +12,15 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "address": {
-      "type": "richtext"
-    },
     "openingHours": {
       "type": "component",
       "repeatable": true,
       "component": "global.opening-day"
+    },
+    "address": {
+      "type": "component",
+      "repeatable": false,
+      "component": "global.address"
     }
   }
 }
