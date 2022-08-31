@@ -21,6 +21,9 @@
       "type": "component",
       "repeatable": false,
       "component": "global.address"
+    },
+    "phone": {
+      "type": "string"
     }
   }
 }
