@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_global_product_description_lists",
+  "info": {
+    "displayName": "Product Description List",
+    "icon": "adjust"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "type": "string"
+    },
+    "content": {
+      "type": "string"
+    }
+  }
+}

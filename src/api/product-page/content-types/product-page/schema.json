@@ -12,10 +12,10 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "description": {
+    "List": {
       "type": "component",
       "repeatable": true,
-      "component": "global.espot-desc"
+      "component": "global.product-description-list"
     }
   }
 }
