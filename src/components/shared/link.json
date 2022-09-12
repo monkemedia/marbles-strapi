@@ -20,6 +20,10 @@
         "_blank"
       ],
       "default": "_self"
+    },
+    "is_visible": {
+      "type": "boolean",
+      "default": true
     }
   }
 }
