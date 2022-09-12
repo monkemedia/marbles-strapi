@@ -20,6 +20,10 @@
     "is_featured": {
       "type": "boolean",
       "default": false
+    },
+    "is_visible": {
+      "type": "boolean",
+      "default": true
     }
   }
 }
