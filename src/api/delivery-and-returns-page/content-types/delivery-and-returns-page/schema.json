@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "delivery_and_returns_pages",
+  "info": {
+    "singularName": "delivery-and-returns-page",
+    "pluralName": "delivery-and-returns-pages",
+    "displayName": "Delivery & Returns Page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}
