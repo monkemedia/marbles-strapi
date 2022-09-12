@@ -1,10 +1,10 @@
 {
   "kind": "singleType",
-  "collectionName": "delivery_and_returns_pages",
+  "collectionName": "delivery_and_returns",
   "info": {
-    "singularName": "delivery-and-returns-page",
-    "pluralName": "delivery-and-returns-pages",
-    "displayName": "Delivery & Returns Page"
+    "singularName": "delivery-and-return",
+    "pluralName": "delivery-and-returns",
+    "displayName": "Delivery and returns"
   },
   "options": {
     "draftAndPublish": true
