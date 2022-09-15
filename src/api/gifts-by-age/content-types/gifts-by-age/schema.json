@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "gifts_by_ages",
+  "info": {
+    "singularName": "gifts-by-age",
+    "pluralName": "gifts-by-ages",
+    "displayName": "Gifts by Age"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "banners": {
+      "type": "component",
+      "repeatable": true,
+      "component": "global.homepage-banners"
+    }
+  }
+}
