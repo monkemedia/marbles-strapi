@@ -29,6 +29,11 @@
       "type": "component",
       "repeatable": false,
       "component": "global.homepage-hero"
+    },
+    "meta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "global.meta"
     }
   }
 }

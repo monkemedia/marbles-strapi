@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_global_metas",
+  "info": {
+    "displayName": "Meta",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "text"
+    }
+  }
+}
