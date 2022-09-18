@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "refer_a_friends",
+  "info": {
+    "singularName": "refer-a-friend",
+    "pluralName": "refer-a-friends",
+    "displayName": "Refer a friend"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}
