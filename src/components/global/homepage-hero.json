@@ -44,6 +44,10 @@
         "is-right"
       ],
       "default": "is-centered"
+    },
+    "is_visible": {
+      "type": "boolean",
+      "default": true
     }
   }
 }
