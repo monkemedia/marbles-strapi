@@ -4,7 +4,8 @@
   "info": {
     "singularName": "refer-a-friend",
     "pluralName": "refer-a-friends",
-    "displayName": "Refer a friend"
+    "displayName": "Refer a friend",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -16,6 +17,11 @@
     },
     "description": {
       "type": "richtext"
+    },
+    "meta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "global.meta"
     }
   }
 }
