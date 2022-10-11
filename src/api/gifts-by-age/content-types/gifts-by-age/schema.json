@@ -4,23 +4,17 @@
   "info": {
     "singularName": "gifts-by-age",
     "pluralName": "gifts-by-ages",
-    "displayName": "Gifts by Age",
-    "description": ""
+    "displayName": "Gifts by Age"
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "items": {
+    "banners": {
       "type": "component",
       "repeatable": true,
-      "component": "global.items"
-    },
-    "meta": {
-      "type": "component",
-      "repeatable": false,
-      "component": "global.meta"
+      "component": "global.homepage-banners"
     }
   }
 }
