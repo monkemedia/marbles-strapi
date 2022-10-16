@@ -4,7 +4,8 @@
   "info": {
     "singularName": "gifts-by-age",
     "pluralName": "gifts-by-ages",
-    "displayName": "Gifts by Age"
+    "displayName": "Gifts by Age",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -15,6 +16,17 @@
       "type": "component",
       "repeatable": true,
       "component": "global.homepage-banners"
+    },
+    "meta": {
+      "type": "component",
+      "repeatable": true,
+      "component": "global.meta"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
     }
   }
 }

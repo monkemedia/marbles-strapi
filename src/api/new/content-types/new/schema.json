@@ -1,0 +1,26 @@
+{
+  "kind": "singleType",
+  "collectionName": "news",
+  "info": {
+    "singularName": "new",
+    "pluralName": "news",
+    "displayName": "new"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "meta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "global.meta"
+    }
+  }
+}
