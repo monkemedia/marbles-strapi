@@ -1,0 +1,26 @@
+{
+  "kind": "singleType",
+  "collectionName": "new_christmases",
+  "info": {
+    "singularName": "new-christmas",
+    "pluralName": "new-christmases",
+    "displayName": "New Christmas"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "meta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "global.meta"
+    }
+  }
+}
