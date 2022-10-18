@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_global_delivery_options",
+  "info": {
+    "displayName": "Delivery Option",
+    "icon": "archway"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "price": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "is_tracked": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}
