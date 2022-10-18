@@ -15,7 +15,7 @@
     "title": {
       "type": "string"
     },
-    "description": {
+    "delivery_description": {
       "type": "richtext"
     },
     "meta": {
@@ -27,6 +27,15 @@
       "type": "component",
       "repeatable": true,
       "component": "global.delivery-option"
+    },
+    "delivery_title": {
+      "type": "string"
+    },
+    "returns_title": {
+      "type": "string"
+    },
+    "returns_description": {
+      "type": "richtext"
     }
   }
 }
