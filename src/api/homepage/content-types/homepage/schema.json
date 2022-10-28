@@ -34,6 +34,11 @@
       "type": "component",
       "repeatable": false,
       "component": "global.meta"
+    },
+    "instagram": {
+      "type": "component",
+      "repeatable": false,
+      "component": "global.instagram"
     }
   }
 }

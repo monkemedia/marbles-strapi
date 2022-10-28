@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_global_instagrams",
+  "info": {
+    "displayName": "instagram",
+    "icon": "coins"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    }
+  }
+}
