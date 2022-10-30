@@ -39,6 +39,11 @@
       "type": "component",
       "repeatable": false,
       "component": "global.instagram"
+    },
+    "new_arrivals": {
+      "type": "component",
+      "repeatable": false,
+      "component": "global.new-arrivals"
     }
   }
 }
