@@ -2,7 +2,8 @@
   "collectionName": "components_global_product_description_lists",
   "info": {
     "displayName": "Product Description List",
-    "icon": "adjust"
+    "icon": "adjust",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -10,6 +11,9 @@
       "type": "string"
     },
     "content": {
+      "type": "string"
+    },
+    "uuid": {
       "type": "string"
     }
   }
