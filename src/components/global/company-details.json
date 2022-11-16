@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_global_company_details",
+  "info": {
+    "displayName": "Company Details",
+    "icon": "brush",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "strapline": {
+      "type": "string"
+    }
+  }
+}

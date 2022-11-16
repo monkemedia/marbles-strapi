@@ -24,6 +24,12 @@
     },
     "phone": {
       "type": "string"
+    },
+    "company_details": {
+      "displayName": "Company Details",
+      "type": "component",
+      "repeatable": false,
+      "component": "global.company-details"
     }
   }
 }
