@@ -48,6 +48,10 @@
     "is_visible": {
       "type": "boolean",
       "default": true
+    },
+    "image_only": {
+      "type": "boolean",
+      "default": false
     }
   }
 }
