@@ -1,10 +1,10 @@
 {
   "kind": "singleType",
-  "collectionName": "new_this_weeks",
+  "collectionName": "back_in_stocks",
   "info": {
-    "singularName": "new-this-week",
-    "pluralName": "new-this-weeks",
-    "displayName": "New this week"
+    "singularName": "back-in-stock",
+    "pluralName": "back-in-stocks",
+    "displayName": "Back in stock"
   },
   "options": {
     "draftAndPublish": true
