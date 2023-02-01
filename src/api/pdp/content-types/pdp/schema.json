@@ -17,15 +17,9 @@
       "required": true
     },
     "videos": {
-      "type": "media",
-      "multiple": true,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
+      "type": "component",
+      "repeatable": true,
+      "component": "global.videos"
     }
   }
 }
