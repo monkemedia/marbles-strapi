@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_global_videos",
+  "info": {
+    "displayName": "videos",
+    "icon": "file-video"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "vimeo",
+        "youtube"
+      ],
+      "default": "vimeo",
+      "required": true
+    },
+    "url": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
