@@ -21,11 +21,6 @@
       "repeatable": true,
       "component": "global.videos"
     },
-    "list": {
-      "type": "component",
-      "repeatable": true,
-      "component": "global.list"
-    },
     "product_name": {
       "type": "string"
     },
