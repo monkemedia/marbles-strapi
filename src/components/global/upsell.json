@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_global_upsells",
+  "info": {
+    "displayName": "upsell",
+    "icon": "allergies",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "product_id": {
+      "type": "string"
+    }
+  }
+}
