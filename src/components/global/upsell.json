@@ -7,7 +7,7 @@
   },
   "options": {},
   "attributes": {
-    "product_id": {
+    "sku": {
       "type": "string"
     }
   }
