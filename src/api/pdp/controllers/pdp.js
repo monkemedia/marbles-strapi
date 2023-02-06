@@ -5,7 +5,6 @@
  */
 
 const queryPopulate = (populate) => {
-  console.log('populate', populate)
   if (Array.isArray(populate)) {
     return populate.flatMap(value => {
       return value.split(',').map(value => value);
