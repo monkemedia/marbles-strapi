@@ -17,18 +17,21 @@ const { createCoreController } = require('@strapi/strapi').factories;
 module.exports = createCoreController('api::pdp.pdp', ({ strapi }) => ({
   async findOne(ctx) {
     const { sku } = ctx.params;
-    const { populate, publicationState } = ctx.query
+    const { populate } = ctx.query
 
-    console.log(publicationState)
-
- 
-    const entity = await strapi.db.query('api::pdp.pdp').findOne({
-      where: { sku },
+    let newEntity
+    const entity = await strapi.entityService.findOne('api::pdp.pdp', 1, {
+      filters: { sku },
       populate: queryPopulate(populate),
-      publicationState
     })
 
-    const sanitizedEntity = await this.sanitizeOutput(entity)
+    if (!entity.publishedAt) {
+      newEntity = null
+    } else {
+      newEntity = entity
+    }
+
+    const sanitizedEntity = await this.sanitizeOutput(newEntity)
 
     return this.transformResponse(sanitizedEntity)
   }
