@@ -20,15 +20,19 @@ module.exports = createCoreController('api::pdp.pdp', ({ strapi }) => ({
     const { populate } = ctx.query
 
     let newEntity
-    const entity = await strapi.entityService.findOne('api::pdp.pdp', 1, {
+    const entity = await strapi.entityService.findMany('api::pdp.pdp', {
       filters: { sku },
       populate: queryPopulate(populate),
     })
 
-    if (!entity.publishedAt) {
+    if (entity.length < 1) {
       newEntity = null
     } else {
-      newEntity = entity
+      if (entity[0].publishedAt === null) {
+        newEntity = null
+      } else {
+        newEntity = entity[0]
+      }
     }
 
     const sanitizedEntity = await this.sanitizeOutput(newEntity)
