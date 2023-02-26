@@ -15,10 +15,6 @@
     "product_id": {
       "type": "string"
     },
-    "sku": {
-      "type": "string",
-      "required": true
-    },
     "videos": {
       "type": "component",
       "repeatable": true,
