@@ -12,6 +12,9 @@
   },
   "pluginOptions": {},
   "attributes": {
+    "product_id": {
+      "type": "string"
+    },
     "sku": {
       "type": "string",
       "required": true
