@@ -19,8 +19,6 @@ module.exports = createCoreController('api::pdp.pdp', ({ strapi }) => ({
     const { productId } = ctx.params;
     const { populate } = ctx.query
 
-    console.log('product_id', ctx.params)
-
     let newEntity
     const entity = await strapi.entityService.findMany('api::pdp.pdp', {
       filters: { product_id: productId },
