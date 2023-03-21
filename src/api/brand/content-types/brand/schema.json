@@ -4,7 +4,8 @@
   "info": {
     "singularName": "brand",
     "pluralName": "brands",
-    "displayName": "Brands"
+    "displayName": "Brands",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -19,7 +20,7 @@
     },
     "meta": {
       "type": "component",
-      "repeatable": true,
+      "repeatable": false,
       "component": "global.meta"
     }
   }
