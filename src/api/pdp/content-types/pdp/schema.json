@@ -31,6 +31,16 @@
     },
     "features": {
       "type": "richtext"
+    },
+    "banners": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
     }
   }
 }
