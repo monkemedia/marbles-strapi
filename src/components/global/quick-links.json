@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_global_quick_links",
+  "info": {
+    "displayName": "Quick Links",
+    "icon": "arrow-alt-circle-down"
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "string"
+    },
+    "buttons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.link"
+    }
+  }
+}
