@@ -44,6 +44,11 @@
       "type": "component",
       "repeatable": false,
       "component": "global.new-arrivals"
+    },
+    "quick_links": {
+      "type": "component",
+      "repeatable": false,
+      "component": "global.quick-links"
     }
   }
 }
