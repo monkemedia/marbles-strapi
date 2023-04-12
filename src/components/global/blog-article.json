@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_global_blog_articles",
+  "info": {
+    "displayName": "Blog Article",
+    "icon": "ambulance",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "author": {
+      "type": "enumeration",
+      "enum": [
+        "Susanne Roberts",
+        "Richard Roberts"
+      ],
+      "default": "Susanne Roberts",
+      "required": true
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
