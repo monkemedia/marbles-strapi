@@ -28,6 +28,15 @@
     },
     "post": {
       "type": "richtext"
+    },
+    "author": {
+      "type": "enumeration",
+      "enum": [
+        "Susanne Roberts",
+        "Richard Roberts"
+      ],
+      "default": "Susanne Roberts",
+      "required": true
     }
   }
 }

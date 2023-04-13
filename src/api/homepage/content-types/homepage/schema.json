@@ -44,6 +44,12 @@
       "type": "component",
       "repeatable": false,
       "component": "global.quick-links"
+    },
+    "blog": {
+      "displayName": "blog",
+      "type": "component",
+      "repeatable": false,
+      "component": "global.blog"
     }
   }
 }

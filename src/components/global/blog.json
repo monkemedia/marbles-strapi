@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_global_blogs",
+  "info": {
+    "displayName": "blog",
+    "icon": "arrow-alt-circle-left"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    }
+  }
+}
