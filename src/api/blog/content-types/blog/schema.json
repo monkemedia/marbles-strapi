@@ -1,11 +1,10 @@
 {
-  "kind": "collectionType",
+  "kind": "singleType",
   "collectionName": "blogs",
   "info": {
     "singularName": "blog",
     "pluralName": "blogs",
-    "displayName": "Blog",
-    "description": ""
+    "displayName": "Blog"
   },
   "options": {
     "draftAndPublish": true
@@ -15,28 +14,8 @@
     "title": {
       "type": "string"
     },
-    "image": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
-    },
-    "post": {
-      "type": "richtext"
-    },
-    "author": {
-      "type": "enumeration",
-      "enum": [
-        "Susanne Roberts",
-        "Richard Roberts"
-      ],
-      "default": "Susanne Roberts",
-      "required": true
+    "description": {
+      "type": "string"
     }
   }
 }
