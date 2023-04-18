@@ -50,6 +50,9 @@
       "type": "component",
       "repeatable": false,
       "component": "global.blog"
+    },
+    "h1_title": {
+      "type": "string"
     }
   }
 }
