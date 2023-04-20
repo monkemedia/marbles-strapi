@@ -4,7 +4,8 @@
   "info": {
     "singularName": "article",
     "pluralName": "articles",
-    "displayName": "Article"
+    "displayName": "Article",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -15,14 +16,15 @@
       "type": "string"
     },
     "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "post": {
       "type": "richtext"
@@ -34,6 +36,11 @@
       ],
       "required": true,
       "default": "Susanne Roberts"
+    },
+    "meta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "global.meta"
     }
   }
 }
