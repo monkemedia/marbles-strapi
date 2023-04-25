@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_global_swatches",
+  "info": {
+    "displayName": "swatch",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "colour_swatch",
+        "image_swatch"
+      ],
+      "default": "colour_swatch"
+    },
+    "hash": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

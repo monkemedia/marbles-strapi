@@ -12,7 +12,7 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "product_id": {
+    "product_sku": {
       "type": "string"
     },
     "videos": {
@@ -33,14 +33,15 @@
       "type": "richtext"
     },
     "banners": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
     }
   }
 }

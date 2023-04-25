@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "variants",
+  "info": {
+    "singularName": "variant",
+    "pluralName": "variants",
+    "displayName": "Variants",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "product_name": {
+      "type": "string"
+    },
+    "options": {
+      "displayName": "options",
+      "type": "component",
+      "repeatable": true,
+      "component": "global.options"
+    }
+  }
+}
