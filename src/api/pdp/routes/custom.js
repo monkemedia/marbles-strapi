@@ -2,7 +2,7 @@ module.exports = {
   routes: [
     {
       method: 'GET',
-      path: '/pdps/:sku',
+      path: '/pdps',
       handler: 'pdp.findOne',
       config: {
         auth: false
