@@ -15,6 +15,9 @@
     },
     "sku": {
       "type": "string"
+    },
+    "slug": {
+      "type": "string"
     }
   }
 }
