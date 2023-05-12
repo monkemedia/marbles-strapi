@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_global_sell_the_rooms",
+  "info": {
+    "displayName": "sell_the_room",
+    "icon": "arrow-alt-circle-down"
+  },
+  "options": {},
+  "attributes": {
+    "product_sku": {
+      "type": "string"
+    }
+  }
+}
