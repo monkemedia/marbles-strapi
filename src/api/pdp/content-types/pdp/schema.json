@@ -43,7 +43,7 @@
         "audios"
       ]
     },
-    "sell_the_room": {
+    "shop_the_room": {
       "displayName": "sell_the_room",
       "type": "component",
       "repeatable": true,
