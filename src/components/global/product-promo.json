@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_global_product_promos",
+  "info": {
+    "displayName": "product_promo",
+    "icon": "at"
+  },
+  "options": {},
+  "attributes": {
+    "sku": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "message": {
+      "type": "richtext"
+    }
+  }
+}

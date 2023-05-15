@@ -48,6 +48,12 @@
       "type": "component",
       "repeatable": true,
       "component": "global.sell-the-room"
+    },
+    "product_promo": {
+      "displayName": "product_promo",
+      "type": "component",
+      "repeatable": false,
+      "component": "global.product-promo"
     }
   }
 }
