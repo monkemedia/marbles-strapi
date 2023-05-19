@@ -24,6 +24,16 @@
     "is_visible": {
       "type": "boolean",
       "default": true
+    },
+    "rel": {
+      "type": "enumeration",
+      "enum": [
+        "null",
+        "noreferrer",
+        "noopener",
+        "external"
+      ],
+      "default": "null"
     }
   }
 }
