@@ -12,9 +12,6 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "highlights": {
-      "type": "string"
-    },
     "banners": {
       "type": "component",
       "repeatable": true,
@@ -53,6 +50,11 @@
     },
     "h1_title": {
       "type": "string"
+    },
+    "banner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "global.homepage-banners"
     }
   }
 }
