@@ -16,10 +16,7 @@ const { createCoreController } = require('@strapi/strapi').factories;
 
 module.exports = createCoreController('api::pdp.pdp', ({ strapi }) => ({
   async findOne(ctx) {
-    const { sku } = ctx.params;
     const { populate, filters } = ctx.query
-
-    console.log('here', filters)
 
     let newEntity
     const entity = await strapi.entityService.findMany('api::pdp.pdp', {
