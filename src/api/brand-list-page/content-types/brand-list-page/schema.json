@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "brand_list_pages",
+  "info": {
+    "singularName": "brand-list-page",
+    "pluralName": "brand-list-pages",
+    "displayName": "Brand List Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "brand_name": {
+      "type": "string"
+    },
+    "brand_id": {
+      "type": "string"
+    },
+    "quick_links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.link"
+    }
+  }
+}
