@@ -17,6 +17,11 @@
     },
     "description": {
       "type": "text"
+    },
+    "meta": {
+      "type": "component",
+      "repeatable": true,
+      "component": "global.meta"
     }
   }
 }
