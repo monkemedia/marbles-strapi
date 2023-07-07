@@ -4,7 +4,8 @@
   "info": {
     "singularName": "category-list-page",
     "pluralName": "category-list-pages",
-    "displayName": "Category List Page"
+    "displayName": "Category List Page",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -26,7 +27,7 @@
     "quick_links": {
       "type": "component",
       "repeatable": true,
-      "component": "global.quick-links"
+      "component": "shared.link"
     }
   }
 }
