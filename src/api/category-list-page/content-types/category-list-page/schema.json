@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "category_list_pages",
+  "info": {
+    "singularName": "category-list-page",
+    "pluralName": "category-list-pages",
+    "displayName": "Category List Page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "category_name": {
+      "type": "string"
+    },
+    "category_id": {
+      "type": "string"
+    },
+    "seo_title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "quick_links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "global.quick-links"
+    }
+  }
+}
