@@ -20,7 +20,7 @@
     },
     "meta": {
       "type": "component",
-      "repeatable": true,
+      "repeatable": false,
       "component": "global.meta"
     }
   }
