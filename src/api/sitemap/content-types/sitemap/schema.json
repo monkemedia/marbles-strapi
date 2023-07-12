@@ -12,14 +12,13 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "section": {
-      "displayName": "Sitemap Section",
-      "type": "component",
-      "repeatable": true,
-      "component": "global.sitemap-section"
-    },
     "title": {
       "type": "string"
+    },
+    "sections": {
+      "type": "component",
+      "repeatable": true,
+      "component": "global.sitemap-columns"
     }
   }
 }

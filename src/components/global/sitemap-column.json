@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_global_sitemap_column",
+  "info": {
+    "displayName": "Sitemap Column",
+    "icon": "audio-description",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.link"
+    },
+    "item_list": {
+      "type": "text"
+    }
+  }
+}

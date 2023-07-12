@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_global_sitemap_columns",
+  "info": {
+    "displayName": "Sitemap Columns",
+    "icon": "arrow-alt-circle-left",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.link"
+    },
+    "column": {
+      "type": "component",
+      "repeatable": true,
+      "component": "global.sitemap-column"
+    }
+  }
+}
