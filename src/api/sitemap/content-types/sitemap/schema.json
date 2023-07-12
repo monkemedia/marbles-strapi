@@ -4,21 +4,24 @@
   "info": {
     "singularName": "sitemap",
     "pluralName": "sitemaps",
-    "displayName": "Sitemap"
+    "displayName": "Sitemap",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "title": {
-      "type": "string"
-    },
     "section": {
       "displayName": "Sitemap Section",
       "type": "component",
       "repeatable": true,
       "component": "global.sitemap-section"
+    },
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.link"
     }
   }
 }
