@@ -19,9 +19,7 @@
       "component": "global.sitemap-section"
     },
     "title": {
-      "type": "component",
-      "repeatable": false,
-      "component": "shared.link"
+      "type": "string"
     }
   }
 }

@@ -6,11 +6,13 @@
   },
   "options": {},
   "attributes": {
-    "title": {
-      "type": "string"
-    },
     "list_items": {
       "type": "text"
+    },
+    "title": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.link"
     }
   }
 }
