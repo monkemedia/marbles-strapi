@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_global_sitemap_sections",
+  "info": {
+    "displayName": "Sitemap Section",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "list_items": {
+      "type": "text"
+    }
+  }
+}
