@@ -19,10 +19,6 @@
       "type": "component",
       "repeatable": true,
       "component": "global.sitemap-columns"
-    },
-    "sub_group": {
-      "type": "boolean",
-      "default": false
     }
   }
 }
