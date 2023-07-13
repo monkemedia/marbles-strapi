@@ -14,6 +14,10 @@
     },
     "item_list": {
       "type": "text"
+    },
+    "sub_group": {
+      "type": "boolean",
+      "default": false
     }
   }
 }
