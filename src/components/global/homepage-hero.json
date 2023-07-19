@@ -77,6 +77,9 @@
         "videos",
         "audios"
       ]
+    },
+    "custom_style": {
+      "type": "text"
     }
   }
 }
