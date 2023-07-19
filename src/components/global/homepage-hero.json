@@ -67,17 +67,6 @@
     "background_colour": {
       "type": "string"
     },
-    "background_mobile": {
-      "type": "media",
-      "multiple": true,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
-    },
     "custom_style": {
       "type": "text"
     }
