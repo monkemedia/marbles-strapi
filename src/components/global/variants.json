@@ -18,6 +18,9 @@
     },
     "slug": {
       "type": "string"
+    },
+    "size": {
+      "type": "string"
     }
   }
 }
