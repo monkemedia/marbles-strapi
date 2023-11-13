@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "coupon_codes",
+  "info": {
+    "singularName": "coupon-code",
+    "pluralName": "coupon-codes",
+    "displayName": "Coupon Code Promos",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "coupon_code": {
+      "displayName": "coupon_code",
+      "type": "component",
+      "repeatable": true,
+      "component": "global.coupon-code"
+    }
+  }
+}

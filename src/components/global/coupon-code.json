@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_global_coupon_codes",
+  "info": {
+    "displayName": "Coupon code",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "sku": {
+      "type": "string"
+    },
+    "text": {
+      "type": "string"
+    },
+    "product_name": {
+      "type": "string"
+    }
+  }
+}
