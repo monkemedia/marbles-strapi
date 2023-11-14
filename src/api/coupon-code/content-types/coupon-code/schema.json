@@ -12,11 +12,14 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "coupon_code": {
-      "displayName": "coupon_code",
-      "type": "component",
-      "repeatable": true,
-      "component": "global.coupon-code"
+    "product_name": {
+      "type": "string"
+    },
+    "sku": {
+      "type": "string"
+    },
+    "text": {
+      "type": "string"
     }
   }
 }
